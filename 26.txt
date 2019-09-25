@@ -1,0 +1,23 @@
+* SELECT Nome FROM Pilotos GROUP BY Equipe;
+
+* SELECT Nome FROM Pilotos GROUP BY Pais;
+ 
+* SELECT Nome FROM Pilotos JOIN Pais ON Piloto.Codigo = Pais.Codigo;
+
+* SELECT Count(Piloto);
+
+* SELECT Pais.Nome FROM Pais WHERE Count(Piloto) >  3;
+
+* SELECT Piloto.Nome, Pais.Nome FROM Piloto JOIN Pais ON Piloto.codigo = Pais.codigo;
+
+* SELECT Count(Piloto.pontos);
+
+* SELECT Pais.Nome FROM Pais WHERE Count(Piloto) >  Count(Piloto);
+
+* SELECT Nome, pontos FROM Pilotos;
+
+* SELECT Nome, pontos FROM Pilotos ORDER BY Pontos ASC;
+
+* SELECT Nome, pontos FROM Pilotos WHERE Pontos = 0;
+
+* SELECT Count(pais) ORDER BY Pais ASC;

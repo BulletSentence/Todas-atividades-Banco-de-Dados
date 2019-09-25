@@ -1,0 +1,5 @@
+CREATE TABLE Funcionario (id_func integer, nome varchar[50]);
+CREATE TABLE Vendedor (id integer, regiao text Comissao integer);
+CREATE TABLE VendedorEspecial (id integer, Comissao integer);
+
+
